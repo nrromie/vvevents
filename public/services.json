@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/3rB5X6n/epic-esports-tournament.jpg",
+        "title": "Epic Esports Tournament",
+        "description": "Organize thrilling esports tournaments with top-tier teams and gamers. Experience intense competition and electrifying gameplay.",
+        "price": "$5000"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/T0NwQ81/virtual-reality.jpg",
+        "title": "Virtual Reality Experiences",
+        "description": "Immerse your attendees in cutting-edge VR environments. From fantasy adventures to realistic simulations, offer unforgettable VR experiences.",
+        "price": "$3000"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/nf0DC2M/gamer.jpg",
+        "title": "Gamer's Lounge Setup",
+        "description": "Create a comfortable and stylish lounge area equipped with the latest gaming consoles, PCs, and gaming peripherals. Perfect for casual gaming and relaxation.",
+        "price": "$2500"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/VtN5Lg1/cosplay.jpg",
+        "title": "Cosplay Contest Management",
+        "description": "Organize and host cosplay contests, where participants showcase their creativity by bringing beloved game characters to life. Judged by renowned cosplayers.",
+        "price": "$2000"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/6B4rFct/developer-workshop.jpg",
+        "title": "Game Developer Workshops",
+        "description": "Educational workshops conducted by experienced game developers. Learn the basics of game development, coding, and design from industry experts.",
+        "price": "$1800"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/WkX3tQD/merchandise.jpg",
+        "title": "Gaming Merchandise Store",
+        "description": "Set up a dedicated store featuring exclusive gaming merchandise, collectibles, and accessories. Attendees can purchase gaming gear and souvenirs.",
+        "price": "$2200"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/hcjvDYr/livestream.jpg",
+        "title": "Live Stream Production",
+        "description": "Professional live streaming services for esports tournaments and gaming events. Engage a global audience with high-quality live broadcasts and commentary.",
+        "price": "$3500"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/x2w5R5Y/virtual-game-launc.jpg",
+        "title": "Virtual Game Launch Events",
+        "description": "Host virtual launch events for game developers. Showcase new game releases, trailers, and gameplay demos to the gaming community worldwide.",
+        "price": "$4000"
+    }
+]
