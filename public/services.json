@@ -1,58 +1,107 @@
 [
     {
         "id": 1,
-        "img": "https://i.ibb.co/3rB5X6n/epic-esports-tournament.jpg",
-        "title": "Epic Esports Tournament",
-        "description": "Organize thrilling esports tournaments with top-tier teams and gamers. Experience intense competition and electrifying gameplay.",
-        "price": "$5000"
+        "name": "Virtual Reality Party",
+        "image": "https://i.ibb.co/Kj8TLmJ/virtual-reality-party.jpg",
+        "price": "500",
+        "description": "Experience the thrill of virtual reality with our VR party package. We provide you with the latest VR headsets, controllers, and games for up to 10 guests. You can choose from a variety of genres, such as action, adventure, horror, racing, and more. Whether you want to explore exotic worlds, fight zombies, or drive supercars, we have something for everyone.",
+        "details": {
+            "duration": "2",
+            "location": "Your preferred venue",
+            "equipment": "10 VR headsets, 10 controllers, 10 gaming laptops, 10 speakers, 1 projector",
+            "games": [
+                {
+                    "logo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKpDy5Vb4zdtRv2e8YzqXyAVCfo4drKydchv7ppLanK0S-sBXO",
+                    "name": "Beat Saber"
+                },
+                {
+                    "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQx3R7XABMSestYD1d_N1fysEvfn_-0LKAgXCip-Zb7UblgE1xy",
+                    "name": "Superhot VR"
+                },
+                {
+                    "logo": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3YuHd2jLwK9BfGFvWjxQBz4IJ27ImzskzqPEMdUYO6LZOq0Sl",
+                    "name": "Half-Life: Alyx"
+                },
+                {
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4AaQ2O1FG1o9WMaK4x8UedkX_fQN5RaXecJ2BYyL7miQ9mTa0",
+                    "name": "Resident Evil 7"
+                },
+                {
+                    "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrIDrsAEEMrU-FcGVDJts_dns7JH7Z9HQ3Of1E7fHQWGwtMKgf",
+                    "name": "Project Cars 2"
+                }
+            ],
+            "requirements": "A spacious room with power outlets and internet access"
+        }
     },
     {
         "id": 2,
-        "img": "https://i.ibb.co/T0NwQ81/virtual-reality.jpg",
-        "title": "Virtual Reality Experiences",
-        "description": "Immerse your attendees in cutting-edge VR environments. From fantasy adventures to realistic simulations, offer unforgettable VR experiences.",
-        "price": "$3000"
+        "name": "Gaming Tournament",
+        "image": "https://i.ibb.co/pvD56Qq/gaming-tournament.jpg",
+        "price": "1000",
+        "description": "Compete with your friends and other gamers in our gaming tournament service. We organize and host tournaments for popular games, such as Fortnite, Call of Duty, FIFA, etc. You can choose the game, the format, the prize pool, and the number of participants. We provide you with the gaming consoles, monitors, controllers, headsets, and live streaming equipment.",
+        "details": {
+            "duration": "4",
+            "location": "Our gaming center or your preferred venue",
+            "equipment": "20 gaming consoles (PS5 or Xbox Series X), 20 monitors, 20 controllers, 20 headsets, 1 live streaming setup",
+            "games": "Fortnite, Call of Duty: Warzone, FIFA 22, Apex Legends, etc.",
+            "requirements": "A large room with power outlets and internet access"
+        }
     },
     {
         "id": 3,
-        "img": "https://i.ibb.co/nf0DC2M/gamer.jpg",
-        "title": "Gamer's Lounge Setup",
-        "description": "Create a comfortable and stylish lounge area equipped with the latest gaming consoles, PCs, and gaming peripherals. Perfect for casual gaming and relaxation.",
-        "price": "$2500"
+        "name": "Board Game Night",
+        "image": "https://i.ibb.co/PMw32bF/board-game.jpg",
+        "price": "300",
+        "description": "Enjoy a fun and relaxing night with our board game service. We provide you with a wide selection of board games, from classics to modern hits. You can play with up to 12 guests and choose from different themes, such as strategy, trivia, party, cooperative, etc. We also provide you with snacks and drinks to keep you energized.",
+        "details": {
+            "duration": "3",
+            "location": "Your preferred venue",
+            "equipment": "50 board games (Monopoly, Catan, Trivial Pursuit, Codenames, Pandemic, etc.), snacks (chips, popcorn, candy), drinks (soda, juice)",
+            "games": "Any board game from our collection",
+            "requirements": "none"
+        }
     },
     {
         "id": 4,
-        "img": "https://i.ibb.co/VtN5Lg1/cosplay.jpg",
-        "title": "Cosplay Contest Management",
-        "description": "Organize and host cosplay contests, where participants showcase their creativity by bringing beloved game characters to life. Judged by renowned cosplayers.",
-        "price": "$2000"
+        "name": "Escape Room Challenge",
+        "image": "https://i.ibb.co/hVNFBVJ/escape-room-challenge.jpg",
+        "price": "400",
+        "description": "Test your wits and teamwork skills with our escape room challenge service. We provide you with a fully immersive and interactive escape room experience for up to 8 guests. You can choose from different themes and difficulty levels such as mystery horror adventure etc. You have to solve puzzles and clues within a limited time to escape.",
+        "details": {
+            "duration": "1",
+            "location": "Our escape room center or your preferred venue",
+            "equipment": "1 escape room setup (props locks cameras) 1 game master",
+            "games": "The Lost Treasure of Atlantis The Haunted Mansion The Secret Agent Mission etc.",
+            "requirements": "None"
+        }
     },
     {
         "id": 5,
-        "img": "https://i.ibb.co/6B4rFct/developer-workshop.jpg",
-        "title": "Game Developer Workshops",
-        "description": "Educational workshops conducted by experienced game developers. Learn the basics of game development, coding, and design from industry experts.",
-        "price": "$1800"
+        "name": "Retro Arcade Party",
+        "image": "https://i.ibb.co/VtqMy3v/retro-archade.jpg",
+        "price": "600",
+        "description": "Relive the nostalgia of the golden age of arcade games with our retro arcade party service. We provide you with a variety of arcade machines and cabinets for up to 15 guests. You can play classic games from the 80s and 90s such as Pac-Man Donkey Kong Street Fighter Mortal Kombat etc. We also provide you with tokens tickets and prizes.",
+        "details": {
+            "duration": "2",
+            "location": "Our arcade center or your preferred venue",
+            "equipment": "15 arcade machines/cabinets (Pac-Man Donkey Kong Street Fighter Mortal Kombat etc.) tokens tickets prizes",
+            "games": "Any arcade game from our collection",
+            "requirements": "A spacious room with power outlets"
+        }
     },
     {
         "id": 6,
-        "img": "https://i.ibb.co/WkX3tQD/merchandise.jpg",
-        "title": "Gaming Merchandise Store",
-        "description": "Set up a dedicated store featuring exclusive gaming merchandise, collectibles, and accessories. Attendees can purchase gaming gear and souvenirs.",
-        "price": "$2200"
-    },
-    {
-        "id": 7,
-        "img": "https://i.ibb.co/hcjvDYr/livestream.jpg",
-        "title": "Live Stream Production",
-        "description": "Professional live streaming services for esports tournaments and gaming events. Engage a global audience with high-quality live broadcasts and commentary.",
-        "price": "$3500"
-    },
-    {
-        "id": 8,
-        "img": "https://i.ibb.co/x2w5R5Y/virtual-game-launc.jpg",
-        "title": "Virtual Game Launch Events",
-        "description": "Host virtual launch events for game developers. Showcase new game releases, trailers, and gameplay demos to the gaming community worldwide.",
-        "price": "$4000"
+        "name": "Laser Tag Battle",
+        "image": "https://i.ibb.co/xCrSBML/laser-tag.jpgÏ",
+        "price": "800",
+        "description": "Have a blast with our laser tag battle service. We provide you with the laser tag equipment vests and guns for up to 20 guests. You can choose from different modes such as team deathmatch capture the flag free for all etc. You can also customize the arena with obstacles lights and sounds.",
+        "details": {
+            "duration": "3",
+            "location": "Our laser tag center or your preferred venue",
+            "equipment": "20 laser tag vests and guns 1 arena setup (obstacles lights sounds)",
+            "games": "Any laser tag mode from our options",
+            "requirements": "A large room or outdoor space with power outlets"
+        }
     }
 ]
