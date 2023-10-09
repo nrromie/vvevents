@@ -8,7 +8,7 @@
         "details": {
             "duration": "2",
             "location": "Your preferred venue",
-            "equipment": "10 VR headsets, 10 controllers, 10 gaming laptops, 10 speakers, 1 projector",
+            "equipment": ["10 VR headsets", "10 controllers", "10 gaming laptops", "10 speakers", "1 projector"],
             "games": [
                 {
                     "logo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKpDy5Vb4zdtRv2e8YzqXyAVCfo4drKydchv7ppLanK0S-sBXO",
