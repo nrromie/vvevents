@@ -18,7 +18,7 @@ const Register = () => {
     }
 
     return (
-        <div>
+        <div className="bg-swhite">
             <div className="text-center lg:text-left">
                 <h1 className="text-5xl font-bold">Register now!</h1>
             </div>
@@ -46,10 +46,12 @@ const Register = () => {
                         </label>
                     </div>
                     <div className="form-control mt-6">
-                        <button type="submit" className="btn btn-primary">Register</button>
+                        <button type="submit" className="btn btn-primary  bg-dblue text-white hover:bg-cblue">Register</button>
                     </div>
                 </form>
-                <p>Already have an account? <Link to="/login">Login</Link></p>
+                <div className="px-6 flex">
+                    <p>Already have an account?</p><Link to={'/Login'} className="inline text-cblue font-medium">Login</Link>
+                </div>
             </div>
         </div>
     );

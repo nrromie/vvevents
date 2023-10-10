@@ -9,7 +9,7 @@ const Banner = () => {
                     </div>
                     <h1 className="mb-5 text-5xl font-bold">Virtual Victory Events</h1>
                     <p className="mb-5">Where Every Click Leads to a Virtual Victory!</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="btn btn-primary bg-dblue text-white">Get Started</button>
                 </div>
             </div>
         </div>

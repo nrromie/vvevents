@@ -4,24 +4,37 @@ import { AuthContext } from "../../providers/AuthProvider";
 
 const Login = () => {
 
-    const { signIn } = useContext(AuthContext);
+    const { signIn, GoogleSignIn } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
 
+    const handleGoogleSignIn = async () => {
+        try {
+            await GoogleSignIn();
+        } catch (error) {
+            console.error(error);
+        }
+        navigate(location?.state ? location.state : '/');
+    };
+
     const handleLogin = e => {
-        e.preverntDefault();
+        e.preventDefault();
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
         const password = form.get('password');
         signIn(email, password)
-            .then(
-                navigate(location?.state ? location.state : '/')
-            )
-            .catch()
+            .then(result => {
+                console.log(result.user);
+                navigate(location?.state ? location.state : '/');
+
+            })
+            .catch(error => {
+                console.error(error);
+            })
     }
 
     return (
-        <div>
+        <div className="bg-swhite">
             <div className="text-center lg:text-left">
                 <h1 className="text-5xl font-bold">Login now!</h1>
             </div>
@@ -43,10 +56,15 @@ const Login = () => {
                         </label>
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Login</button>
+                        <button className="btn btn-primary bg-dblue text-white hover:bg-cblue">Login</button>
                     </div>
                 </form>
-                <p>Don't have an account?</p><Link to={'/Register'}>Register</Link>
+                <div className="px-6 flex">
+                    <p>Don't have an account?</p><Link to={'/Register'} className="inline text-cblue font-medium">Register</Link>
+                </div>
+                <div className="text-center">
+                    <button className="my-6 py-2 px-4 rounded bg-dblue text-white w-fit" onClick={handleGoogleSignIn} type="button">Login using Google</button>
+                </div>
             </div>
         </div>
     );
